@@ -1,0 +1,28 @@
+Creating Vulkan Context
+| nvvk::Context::createInstance -> 64.576 ms
+|-> 164.667 ms
+Adding DefaultWindowTitle
+Adding Camera Manipulator
+Found example directory: vk_slang_editor_files\examples
+Sending slangd an initialization message...
+Compiled successfully.
+nvvkgltf::Scene::load
+| C:\Users\Admin\Desktop\_install\resources\shaderball.glb
+|-> 0.657 ms
+nvvkgltf::SceneVk::create
+| nvvkgltf::SceneVk::updateMaterialBuffer -> 0.196 ms
+| nvvkgltf::SceneVk::createVertexBuffers -> 0.123 ms
+| nvvkgltf::SceneVk::createTextureImages
+| |-> 0.080 ms
+|-> 0.533 ms
+Running application
+slangd initialized.
+Compiled successfully.
+Compiled successfully.
+texDaytime -> C:\Users\Admin\Desktop\_install\resources\daytime.hdr
+Compiled successfully.
+Compiled successfully.
+Compiled successfully.
+Compiled successfully.
+PeekNamedPipe failed! GetLastError == 109. Shutting down slangd.
+Language server appears to have crashed. Clearing pending requests.
